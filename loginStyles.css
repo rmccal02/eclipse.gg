@@ -1,0 +1,100 @@
+/* Styling for create-account and login screens */
+
+.auth-section {
+    margin-top: 80px; /* Adjust this value as needed */
+    text-align: center;
+    padding: 50px;
+}
+
+/* New styles for the slim white panel */
+.auth-panel {
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    border-radius: 10px;
+    padding: 20px;
+    width: 375px; /* Adjust the width as needed */
+    margin: 70px auto; /* Center the panel */
+}
+
+.auth-panel h2 {
+    font-family: 'Orbitron', sans-serif; /* Use the futuristic font */
+    font-weight: bold;
+}
+
+.auth-form button {
+    width: 100%; /* Full width of the container */
+    padding: 15px;
+    font-size: 20px; /* Adjust the font size as needed */
+    font-family: 'Orbitron', sans-serif; /* Use your custom font here */
+    font-weight: bold; /* Adjust the font weight if needed */
+    text-transform: uppercase; /* Convert text to uppercase if desired */
+    letter-spacing: 1px; /* Adjust letter spacing if desired */
+    background-color: #555; /* Gray background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.auth-form input {
+    width: calc(100% - 20px); /* Full width of the container minus padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 18px; /* Adjust the font size as needed */
+    box-sizing: border-box;
+}
+
+.auth-form button {
+    width: 100%; /* Full width of the container */
+    padding: 15px;
+    font-size: 20px; /* Adjust the font size as needed */
+    background-color: #555; /* Gray background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: top;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-sectionLOGIN {
+    background-color: #333;
+    color: #fff;
+    padding: 20px; /* Adjust the height as needed */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-section-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact-sectionLOGIN .social-media a {
+    font-size: 16px; /* Adjust the font size for social media icons */
+}
+
+.contact-sectionLOGIN .contact-support p {
+    margin: 5px 0;
+    font-size: 14px; /* Adjust the font size for contact/support information */
+}
+
+/* Additional styles specific to create-account and login screens */

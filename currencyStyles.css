@@ -1,0 +1,129 @@
+/* Styles for currency section */
+.currency-section {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 80px; /* Adjust this value as needed */
+
+}
+
+.currency-section h2 {
+
+    font-family: 'Orbitron', sans-serif; /* Use the futuristic font */
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.currency-section h3 {
+
+    font-family: 'Orbitron', sans-serif; /* Use the futuristic font */
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.currency-section h4 {
+    font-family: 'Orbitron', sans-serif; /* Use the futuristic font */
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 75px;
+}
+
+
+
+/* Styles for wider panel */
+.currency-panel.wider-panel {
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    border-radius: 10px;
+    padding: 20px;
+    width: 62%; /* Adjust the width as needed */
+    height: 300px;
+    margin: 70px 1%; /* Adjust the margin to create a small gap between panels */
+}
+
+/* Styles for smaller panel */
+.currency-panel.smaller-panel {
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    border-radius: 10px;
+    padding: 20px;
+    width: 31%; /* Adjust the width as needed */
+    height: 300px; /* Make the height equal to the parent container's height */
+    margin: 70px 1%; /* Adjust the margin to create a small gap between panels */
+}
+
+/* Styles for currency form */
+.currency-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for textfields in currency form */
+.currency-form input {
+    width: 50%; /* Full width of the container */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px; /* Adjust the font size as needed */
+    box-sizing: border-box;
+}
+
+/* Styles for labels in currency form */
+.currency-form label {
+    font-family: 'Orbitron', sans-serif; /* Use the futuristic font */
+    font-weight: bold;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 8px;
+    text-align: right; /* Align the labels to the right */
+    width: 100%; /* Full width of the container */
+}
+
+/* Styles for submit button */
+.currency-form button {
+    width: 100%; /* Full width of the container */
+    padding: 15px;
+    font-size: 20px; /* Adjust the font size as needed */
+    background-color: #555; /* Gray background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for smaller panel text */
+.currency-panel.smaller-panel p {
+    font-family: 'Orbitron', sans-serif; /* Use your custom font */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0;
+}
+/* Styles for smaller panel text */
+.currency-panel.smaller-panel p {
+    font-family: 'Orbitron', sans-serif; /* Use your custom font */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+.currency-form .additional-cost {
+    display: flex;
+    width: 100%;
+}
+
+.currency-form .currency-rate {
+    width: 50%; /* Adjust the width as needed */
+}
+
+/* Styles for the cost textfield */
+.currency-form .cost {
+    width: 50%; /* Adjust the width as needed */
+}
+
+.contact-section-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
